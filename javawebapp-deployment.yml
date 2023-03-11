@@ -15,7 +15,7 @@ spec:
       imagePullSecrets:
       - name: ecrregistrycredentails
       containers:
-      - image: 242703769935.dkr.ecr.ap-south-1.amazonaws.com/java-web-app:${buildNumber}
+      - image: 242703769935.dkr.ecr.ap-south-1.amazonaws.com/java-web-app
         name: javawebapp
         ports:
         - name: javawebapp
