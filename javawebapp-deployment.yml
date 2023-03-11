@@ -12,8 +12,10 @@ spec:
       labels:
         name: javawebapp
     spec:
+      imagePullSecrets:
+      - name: ecrregistrycredentails
       containers:
-      - image: dockerhandson/java-web-app
+      - image: 242703769935.dkr.ecr.ap-south-1.amazonaws.com/java-web-app
         name: javawebapp
         ports:
         - name: javawebapp
