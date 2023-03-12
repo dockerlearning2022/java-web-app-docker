@@ -13,7 +13,7 @@ spec:
         name: javawebapp
     spec:
       imagePullSecrets:
-      - name: ecrregistrycredentails
+      - name: my-registry-key
       containers:
       - image: 242703769935.dkr.ecr.ap-south-1.amazonaws.com/java-web-app
         name: javawebapp
